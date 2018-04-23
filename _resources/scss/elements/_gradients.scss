@@ -1,0 +1,7 @@
+.grad-light-green-v {
+  background-image: linear-gradient(to top,$green-light, rgba(246, 249, 241, 0) 50%, rgba(246, 249, 241, 0) 70%, $green-light);
+}
+
+.grad-light-green-v-half {
+  background-image: linear-gradient(to bottom,$green-light, rgba(246, 249, 241, 0) 60%);
+}

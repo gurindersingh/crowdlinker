@@ -1,0 +1,111 @@
+$font-path-lato: '/crowdlinker/assets/fonts/Lato/';
+
+// HAIRLINE
+@font-face {
+  font-family: 'Lato Hairline';
+  src: url('#{$font-path-lato}Lato-Hairline.eot');
+  src: url('#{$font-path-lato}Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path-lato}Lato-Hairline.woff2') format('woff2'),
+  url('#{$font-path-lato}Lato-Hairline.woff') format('woff'),
+  url('#{$font-path-lato}Lato-Hairline.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato Hairline';
+  src: url('#{$font-path-lato}Lato-HairlineItalic.eot');
+  src: url('#{$font-path-lato}Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path-lato}Lato-HairlineItalic.woff2') format('woff2'),
+  url('#{$font-path-lato}Lato-HairlineItalic.woff') format('woff'),
+  url('#{$font-path-lato}Lato-HairlineItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+// LIGHT
+@font-face {
+  font-family: 'Lato';
+  src: url('#{$font-path-lato}Lato-Light.eot');
+  src: url('#{$font-path-lato}Lato-Light.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path-lato}Lato-Light.woff2') format('woff2'),
+  url('#{$font-path-lato}Lato-Light.woff') format('woff'),
+  url('#{$font-path-lato}Lato-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('#{$font-path-lato}Lato-LightItalic.eot');
+  src: url('#{$font-path-lato}Lato-LightItalic.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path-lato}Lato-LightItalic.woff2') format('woff2'),
+  url('#{$font-path-lato}Lato-LightItalic.woff') format('woff'),
+  url('#{$font-path-lato}Lato-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+// NORMAL
+@font-face {
+  font-family: 'Lato';
+  src: url('#{$font-path-lato}Lato-Regular.eot');
+  src: url('#{$font-path-lato}Lato-Regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path-lato}Lato-Regular.woff2') format('woff2'),
+  url('#{$font-path-lato}Lato-Regular.woff') format('woff'),
+  url('#{$font-path-lato}Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('#{$font-path-lato}Lato-Italic.eot');
+  src: url('#{$font-path-lato}Lato-Italic.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path-lato}Lato-Italic.woff2') format('woff2'),
+  url('#{$font-path-lato}Lato-Italic.woff') format('woff'),
+  url('#{$font-path-lato}Lato-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+// BOLD
+@font-face {
+  font-family: 'Lato';
+  src: url('#{$font-path-lato}Lato-BoldItalic.eot');
+  src: url('#{$font-path-lato}Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path-lato}Lato-BoldItalic.woff2') format('woff2'),
+  url('#{$font-path-lato}Lato-BoldItalic.woff') format('woff'),
+  url('#{$font-path-lato}Lato-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('#{$font-path-lato}Lato-Bold.eot');
+  src: url('#{$font-path-lato}Lato-Bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path-lato}Lato-Bold.woff2') format('woff2'),
+  url('#{$font-path-lato}Lato-Bold.woff') format('woff'),
+  url('#{$font-path-lato}Lato-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+// BLACK
+@font-face {
+  font-family: 'Lato';
+  src: url('#{$font-path-lato}Lato-Black.eot');
+  src: url('#{$font-path-lato}Lato-Black.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path-lato}Lato-Black.woff2') format('woff2'),
+  url('#{$font-path-lato}Lato-Black.woff') format('woff'),
+  url('#{$font-path-lato}Lato-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('#{$font-path-lato}Lato-BlackItalic.eot');
+  src: url('#{$font-path-lato}Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path-lato}Lato-BlackItalic.woff2') format('woff2'),
+  url('#{$font-path-lato}Lato-BlackItalic.woff') format('woff'),
+  url('#{$font-path-lato}Lato-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}

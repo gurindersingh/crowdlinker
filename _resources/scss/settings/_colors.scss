@@ -1,0 +1,49 @@
+$gray-dark: #394048;
+$gray-light: #cbcbcb;
+$gray-800: #394048;
+$dark: #394048;
+
+$green-light: #e9f0de;
+$green: #96bc62;
+$green-dark: #7c964f;
+$green-darkest: #465d27;
+
+$grays: (
+        "100": $gray-100,
+        "200": $gray-200,
+        "300": $gray-300,
+        "400": $gray-400,
+        "500": $gray-500,
+        "600": $gray-600,
+        "700": $gray-700,
+        "800": #efefef,
+        "900": #efefef
+);
+
+$colors: (
+        "blue":       $blue,
+        "indigo":     $indigo,
+        "purple":     $purple,
+        "pink":       $pink,
+        "red":        $red,
+        "orange":     $orange,
+        "yellow":     $yellow,
+        "green":      $green,
+        "teal":       $teal,
+        "cyan":       $cyan,
+        "white":      $white,
+        "gray":       #efefef,
+        "gray-dark":  #efefef
+);
+
+$theme-colors: (
+        "primary":    $primary,
+        "secondary":  $secondary,
+        "success":    $success,
+        "info":       $info,
+        "warning":    $warning,
+        "danger":     $danger,
+        "light":      $light,
+        "dark":       $dark
+);
+

@@ -1,0 +1,132 @@
+.widget {
+  //padding: 83px 0 0 0;
+}
+
+.clients-list {
+
+  > li {
+    margin-right: 106px;
+    margin-bottom: 27px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+  }
+}
+
+// Services
+.service-business {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+
+  .box {
+    background-color: $green;
+    width: 426px;
+    height: 458px;
+    opacity: 0.2;
+  }
+
+  img {
+    position: absolute;
+    top: 44px;
+    left: 52px;
+    max-width: 100%;
+  }
+
+  @include media-breakpoint-down('lg') {
+    .box {
+      width: 343px;
+      height: 484px;
+    }
+
+    img {
+      left: 0;
+      top: 87px;
+    }
+  }
+
+}
+
+.services-communities {
+  margin-top: 48px;
+  display: flex;
+  justify-content: flex-end;
+
+  .box {
+    width: 453px;
+    height: 391px;
+    opacity: 0.2;
+    background-color: $green;
+  }
+
+  img {
+    position: absolute;
+    top: 42px;
+    right: 139px;
+    max-width: 100%;
+  }
+
+  @include media-breakpoint-down('lg') {
+    .box {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 367px;
+      max-width: 100%;
+      height: 542px;
+    }
+
+    img {
+      position: relative;
+      margin-top: 106px;
+      max-width: 100%;
+      left: 0;
+      top: 0;
+    }
+  }
+
+}
+
+.services-innovators {
+  margin-top: 48px;
+  z-index: 1;
+
+  .box {
+    position: absolute;
+    width: 453px;
+    height: 370px;
+    opacity: 0.2;
+    background-color: $green;
+    top: 16px;
+    left: 86px;
+  }
+
+  img {
+    position: relative;
+    width: 100%;
+  }
+
+  @include media-breakpoint-down('lg') {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 422px;
+
+    .box {
+      width: 80%;
+      height: 422px;
+      left: 29px;
+      max-width: 90%;
+    }
+
+    img {
+      //position: relative;
+      //display: flex;
+    }
+
+  }
+
+}

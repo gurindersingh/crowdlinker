@@ -1,0 +1,18 @@
+.hero {
+  background: $gray-500;
+  height: 830px;
+  @include img-retina("/crowdlinker/assets/img/hero/hero-img.jpg", "/crowdlinker/assets/img/hero/hero-img@2x.jpg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+
+  .hero-intro {
+    margin: 375px 0 248px 0;
+    color: white;
+    font-weight: 300;
+    line-height: 1.73;
+    font-size: 40px;
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,23 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "./settings/index";
+@import "~bootstrap/scss/mixins";
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Fonts
+@import "fonts/Cormorant_Garamond";
+@import "fonts/Lato";
+
+// Elements
+@import "elements/mixins";
+@import "elements/layouts";
+@import "elements/header";
+@import "elements/main";
+@import "elements/titles";
+@import "elements/widgets";
+@import "elements/gradients";
+@import "elements/utils";
+@import "elements/forms";
+@import "elements/typo";
+@import "elements/team";

@@ -1,0 +1,49 @@
+.partner-widget-title {
+  margin-bottom: 27px;
+}
+
+.font-lato {
+  font-family: $font-family-sans-serif !important;
+}
+
+.font-heading {
+  font-family: $headings-font-family !important;
+}
+
+.paragraph {
+  font-size: $font-size-base !important;
+}
+
+.text-green {
+  color: $green;
+}
+
+.ls-1px{
+  letter-spacing: 1px;
+}
+
+.lh-1\.88{
+  line-height: 1.88;
+}
+
+.footer-links {
+  font-weight: bold;
+  line-height: $line-height-sm;
+  color: $gray-dark;
+  border-bottom: 2px solid $gray-dark;
+  transition: all 200ms ease-in-out;
+
+  &:hover, &:focus, &:active {
+    text-decoration: none;
+    color: $green;
+    border-color: $green;
+  }
+
+}
+
+.lead {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

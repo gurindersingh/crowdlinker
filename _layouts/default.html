@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<div id="app" class="app">
+    {{ content }}
+</div>
+<script src="{{site.baseurl}}/assets{{ site.data.mix-manifest['/js/app.js'] }}"></script>
+</body>
+</html>
