@@ -15,8 +15,6 @@ const fs = require('fs-extra');
 mix.setPublicPath('assets')
     .js('_resources/js/app.js', 'js/')
     .sass('_resources/scss/app.scss', 'css/')
-    .version()
-    .sourceMaps()
     .browserSync({
         browser: 'Google Chrome',
         proxy: false,
@@ -32,4 +30,4 @@ mix.setPublicPath('assets')
             .then(() => console.log('mix-manifest.json copied to _data'))
     });
 
-// mix.inProduction() ? mix.version() : mix.sourceMaps();
+mix.inProduction() ? mix.version() : mix.sourceMaps();
